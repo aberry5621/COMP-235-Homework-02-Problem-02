@@ -8,25 +8,20 @@
 
 #include "pairTemplate_H.h"
 // construtor default
-template<>
-Pair<T>::Pair() {
-
-}
 template<class T1, class T2>
-Pair::Pair(T1 p_first, T2 p_second) {
+Pair<T1, T2>::Pair() {}
 
-}
 // constructor w params
-// accessors
-T1 Pair::first() {}
-T2 Pair::second() {}
-// mutators
-void Pair::setValuesToPair(T1 p_first, T2 p_second) {
-    
-}
+template<class T1, class T2>
+Pair<T1, T2>::Pair(T1 p_first, T2 p_second) {}
 
-/*
-private members:
-T1 m_first;
-T2 m_second;
-*/
+
+// accessors
+template<class T1, class T2>
+T1 first() {}
+template<class T1, class T2>
+T2 second() {}
+
+// mutators
+template<class T1, class T2>
+void Pair<T1, T2>::setValuesToPair(T1 p_first, T2 p_second){}
