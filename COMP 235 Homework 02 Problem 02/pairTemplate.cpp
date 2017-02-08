@@ -13,7 +13,7 @@ Pair::Pair() {
 
 }
 template<class T1, class T2>
-Pair::Pair<T1 p_first, T2 p_second) {
+Pair::Pair(T1 p_first, T2 p_second) {
 
 }
 // constructor w params
