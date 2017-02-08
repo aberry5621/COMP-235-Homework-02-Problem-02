@@ -9,7 +9,7 @@
 #include "pairTemplate_H.h"
 // construtor default
 template<>
-Pair::Pair() {
+Pair<T>::Pair() {
 
 }
 template<class T1, class T2>
