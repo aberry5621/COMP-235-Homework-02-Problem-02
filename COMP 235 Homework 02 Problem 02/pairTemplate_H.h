@@ -12,10 +12,8 @@
 template<class T1, class T2>
 class Pair {
 public:
-    typedef T1 value_type_1;
-    typedef T2 value_type_2;
     Pair(); // construtor default
-    Pair<T1 p_first, T2 p_second); // constructor w params
+    Pair(T1 p_first, T2 p_second); // constructor w params
     // accessors
     T1 first();
     T2 second();
