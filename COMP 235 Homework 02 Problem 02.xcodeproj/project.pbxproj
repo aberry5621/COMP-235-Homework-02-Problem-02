@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E288E8A81E4AE40A00BA3C87 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E288E8A71E4AE40A00BA3C87 /* main.cpp */; };
+		E288E8B11E4AE43700BA3C87 /* pairTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E288E8AF1E4AE43700BA3C87 /* pairTemplate.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E288E8A41E4AE40A00BA3C87 /* COMP 235 Homework 02 Problem 02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "COMP 235 Homework 02 Problem 02"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E288E8A71E4AE40A00BA3C87 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E288E8AF1E4AE43700BA3C87 /* pairTemplate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pairTemplate.cpp; sourceTree = "<group>"; };
+		E288E8B01E4AE43700BA3C87 /* pairTemplate_H.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pairTemplate_H.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E288E8A71E4AE40A00BA3C87 /* main.cpp */,
+				E288E8AF1E4AE43700BA3C87 /* pairTemplate.cpp */,
+				E288E8B01E4AE43700BA3C87 /* pairTemplate_H.h */,
 			);
 			path = "COMP 235 Homework 02 Problem 02";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E288E8A81E4AE40A00BA3C87 /* main.cpp in Sources */,
+				E288E8B11E4AE43700BA3C87 /* pairTemplate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
